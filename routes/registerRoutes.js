@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const router = express.Router()
 const bodyParser = require("body-parser")
-const { check, validationResult } = require('express-validator/check');
+const { check, validationResult } = require('express-validator');
 
 
 

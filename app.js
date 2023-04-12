@@ -5,11 +5,13 @@ const pug = require('pug')
 const middleware = require('./middleware')
 const path=require('path')
 const bodyParser = require("body-parser")
+const mongoose = require('./database')
 
 
 
 
-const server = app.listen(port, () => {
+
+app.listen(port, () => {
   console.log("Server linstening on port " + port);
 })
 
